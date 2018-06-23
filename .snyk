@@ -1,0 +1,45 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - laravel-elixir > browser-sync > connect > debug:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > browser-sync > serve-index > debug:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > browser-sync > localtunnel > debug:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > browser-sync > connect > finalhandler > debug:
+        patched: '2018-06-23T03:27:17.006Z'
+  'npm:hoek:20180212':
+    - laravel-elixir > gulp-less > less > request > hawk > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-less > less > request > hawk > boom > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-less > less > request > hawk > sntp > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-less > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-phpunit > gulp-messenger > purdy > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-23T03:27:17.006Z'
+  'npm:minimatch:20160620':
+    - laravel-elixir > browserify > glob > minimatch:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > gulp-if > gulp-match > minimatch:
+        patched: '2018-06-23T03:27:17.006Z'
+  'npm:ms:20170412':
+    - laravel-elixir > browser-sync > connect > debug > ms:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > browser-sync > connect > finalhandler > debug > ms:
+        patched: '2018-06-23T03:27:17.006Z'
+    - laravel-elixir > browser-sync > serve-index > debug > ms:
+        patched: '2018-06-23T03:27:17.006Z'
