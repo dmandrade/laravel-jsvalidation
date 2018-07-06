@@ -43,3 +43,6 @@ patch:
         patched: '2018-06-23T03:27:17.006Z'
     - laravel-elixir > browser-sync > serve-index > debug > ms:
         patched: '2018-06-23T03:27:17.006Z'
+  'npm:lodash:20180130':
+    - laravel-elixir > browser-sync > easy-extender > lodash:
+        patched: '2018-07-06T08:42:28.521Z'
